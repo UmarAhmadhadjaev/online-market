@@ -1,0 +1,48 @@
+body {
+    background-color: #2a2438;
+  }
+  .container {
+    height: 42px ;
+  }
+  .card {
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    background-color: #352f44;
+  }
+  .card:hover {
+    box-shadow: 0px 4px 8px rgb(115, 4, 243);
+    transition: all 0.2s ease-out;
+    border: 1px solid #cccccc;
+  }
+  #select {
+    margin-top: 25px;
+    width: 260px;
+    height: 60px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin-bottom: 70px;
+    margin-left: 323px;
+  }
+  .main {
+    width: 300px;
+    height: 60px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    margin-right: 280px;
+    padding: 15px;
+  }
+  .navbar {
+    display: flex;
+  }
+  #search{
+    height: 52px;
+  }
+  .rating-stars img {
+    width: 30px;
+  }
